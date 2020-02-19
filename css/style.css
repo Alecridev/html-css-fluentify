@@ -48,6 +48,7 @@ ul.nav-wrapper-testo{
   }
 
 .lista-item-wrapper{
+  margin-right: 12px;
   padding-top: .425rem;
   padding-bottom: .425rem;
   font-weight: 700;
@@ -60,7 +61,7 @@ ul.nav-wrapper-testo{
 .sezione-wrapper-bottoni{
   margin-top: 20px;
   margin-right: 9px;
-  margin-left: 100px;
+  margin-left: 80px;
   padding: 0 15px;
   opacity: 1;
   font-weight: 700;
