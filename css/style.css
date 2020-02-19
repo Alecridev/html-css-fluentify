@@ -4,20 +4,100 @@
   box-sizing: border-box;
 }
 
+body{
+font-family: "Museo Sans", sans-serif;
+font-size: 1rem;
+line-height: 1.5;
+color: #373a3c;
+}
 .contenitore-global-pagina{
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
   }
 
 header{
+display: flex;
+margin-right: -15px;
+margin-left: -15px;
+padding: 20px 6%;
+background-color: #0d325a;
   }
 .sezione-immagine{
-
+  padding: 0 15px;
 }
 .sezione-wrapper-testo{
+  padding: 0 15px;
+  left: 41.666667%;
+}
+.wrapper-testo{
+  margin-top: 5px;
+  padding: .5rem 5px;
+  line-height: 24px;
+  position: relative;
+  border-radius: .25rem;
+}
+ul.nav-wrapper-testo{
+  padding-left: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  float: left;
+  }
 
+.lista-item-wrapper{
+  padding-top: .425rem;
+  padding-bottom: .425rem;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  list-style: none;
+  line-height: 1.5;
+  display: inline-block;
 }
 .sezione-wrapper-bottoni{
-
+  margin-top: 20px;
+  margin-right: 9px;
+  margin-left: 100px;
+  padding: 0 15px;
+  opacity: 1;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+  left: 41.666667%;
+  float: right;
+  text-decoration: none;
 }
+.becomea{
+  color: rgba(255,255,255,.5);
+  margin-right: 9px;
+}
+.login{
+  margin-right: 9px;
+  margin-left: 20px;
+  border-color: #4e8cb6;
+  border-width: 1px;
+  padding: 8px 25px;
+  opacity: .9;
+  font-size: 11px;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: white;
+}
+.createyourplan{
+  margin-left: 9px;
+  background-color: #7fb802;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 8px 10px;
+  text-decoration: none;
+  }
 .box-home-header{
 
 }
@@ -139,5 +219,5 @@ footer{
 
 }
 .testo-footer-dx{
-  
+
 }
