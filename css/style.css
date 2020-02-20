@@ -61,7 +61,7 @@ ul.nav-wrapper-testo{
 .sezione-wrapper-bottoni{
   margin-top: 20px;
   margin-right: 9px;
-  margin-left: 80px;
+  margin-left: 25px;
   padding: 0 15px;
   opacity: 1;
   font-weight: 700;
@@ -99,39 +99,108 @@ ul.nav-wrapper-testo{
   padding: 8px 10px;
   text-decoration: none;
   }
+
 .box-home-header{
-
+  margin: 0 -15px;
+  background-color: #0d325a;
+  height: 420px;
+  padding-top: 20px;
+  font-weight: 500;
+  background-image:url("/Users/swichy/Desktop/Corso Boolean/html-css-fluentify/img/vecchi.JPG");
 }
-#testo-bottone{
 
+.testo-bottone{
+  margin: 90px 0 120px 100px;
+  font-family: "Museo Sans", sans-serif;
+  margin-top: 0;
+  color: #fff;
+  font-size: 45px;
+  font-weight:500;
+  line-height: 55px;
+  padding-right: 50px;
+  max-width: 50%;
 }
+.createyourplan{
+  font-size: 12px;
+  font-weight: 700;
+  height: 44px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  min-width: 182px;
+  padding-top: 13px;
+  letter-spacing: .0182em;
+}
+
 .testo-sotto-header{
-
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .testo{
-
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  text-align: center;
+  line-height: 1.1;
+  color: inherit;
+  background-color: #f9f9f9;
 }
-.immagini-grandi-testo{
-
+p.testo{
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+  margin-top: 0;
+  text-align: center;
+  line-height: 1.5;
 }
-.immagine1{
 
+.immagine{
+  padding: 20px 60px;
+  margin-right: -15px;
+margin-left: -15px;
+  max-width: 25%;
+  display:inline-block;
+  margin-top: 0;
+margin-bottom: 1rem;
 }
-.immagine2{
 
+h6{
+  font-size: 23px;
+  min-height: 50px;
+  color: #7fb802;
+  text-align: center;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 0;
 }
-.immagine3{
 
+hr{
+opacity: .3;
+width: 32px;
+border-top: 2px solid;
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
 }
-.box-testo-immagine1{
+.box-testo-h6{
+  max-width: 30%;
+}
 
+.box-testo{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+  padding: 0 30px;
+  text-align: center;
+  margin-top: 0;
+margin-bottom: 1rem;
+max-width: 30%;
 }
-.box-testo-immagine2{
 
-}
-.box-testo-immagine3{
-
-}
 .box-imgmontagna-testo{
 
 }
