@@ -154,47 +154,48 @@ p.testo{
   text-align: center;
   line-height: 1.5;
 }
-
-immagini-grandi-testo:after{
-  content:"";
-  display:table;
-  clear:both;
+.immagine-testo{
+  max-width: 30%;
+  display: inline-block;
 }
-
 .immagine1{
   background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/profile.svg?v16");
   padding: 20px 60px;
-  background-size:cover
   height: 240px;
-  max-width: 350px;
+  background-position:center;
+  background-size:cover;
   margin-right: -15px;
   margin-left: -15px;
   margin-top: 0;
   margin-bottom: 1rem;
-  float: left;
 }
+
 .immagine2{
   background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/computer.svg?v16");
   padding: 20px 60px;
   height: 240px;
-  max-width: 350px;
+  background-position:center;
+  background-size:cover;
   margin-right: -15px;
   margin-left: -15px;
   margin-top: 0;
   margin-bottom: 1rem;
-  float: left;
 }
 .immagine3{
   background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/doc.svg?v16");
   padding: 20px 60px;
   height: 240px;
-  max-width: 350px;
+  background-position:center;
+  background-size:cover;
   margin-right: -15px;
   margin-left: -15px;
   margin-top: 0;
   margin-bottom: 1rem;
-  float: left;
 }
+.box-testo-immagine{
+  max-width: 30%;
+}
+
 h6{
   font-size: 23px;
   min-height: 50px;
@@ -215,9 +216,6 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 border: 0;
 }
-.box-testo-h6{
-  max-width: 30%;
-}
 
 .box-testo{
   font-size: 15px;
@@ -227,8 +225,7 @@ border: 0;
   padding: 0 30px;
   text-align: center;
   margin-top: 0;
-margin-bottom: 1rem;
-max-width: 30%;
+  margin-bottom: 1rem;
 }
 
 .box-imgmontagna-testo{
