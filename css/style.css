@@ -155,16 +155,46 @@ p.testo{
   line-height: 1.5;
 }
 
-.immagine{
-  padding: 20px 60px;
-  margin-right: -15px;
-margin-left: -15px;
-  max-width: 25%;
-  display:inline-block;
-  margin-top: 0;
-margin-bottom: 1rem;
+immagini-grandi-testo:after{
+  content:"";
+  display:table;
+  clear:both;
 }
 
+.immagine1{
+  background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/profile.svg?v16");
+  padding: 20px 60px;
+  background-size:cover
+  height: 240px;
+  max-width: 350px;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  float: left;
+}
+.immagine2{
+  background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/computer.svg?v16");
+  padding: 20px 60px;
+  height: 240px;
+  max-width: 350px;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  float: left;
+}
+.immagine3{
+  background-image:url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/doc.svg?v16");
+  padding: 20px 60px;
+  height: 240px;
+  max-width: 350px;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  float: left;
+}
 h6{
   font-size: 23px;
   min-height: 50px;
